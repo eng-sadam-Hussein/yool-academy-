@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
-import ScrollToTop from "./Components/ScrollToTop";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Hero from "./Pages/Hero";
 import About from "./Pages/About";
