@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Poppins", sans-serif;
+
+    /* Palette-ka Logada */
+  --color-primary: #002B45;
+  --color-secondary: #23A3FF;
+  --color-base: #0077C8;
+
+  /* Tani waa halka aad ku qeexayso in Dark Mode uu ku shaqeeyo class-ka 'dark' */
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+}
