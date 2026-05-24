@@ -6,7 +6,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 import Hero from "./Pages/Hero";
 import About from "./Pages/About";
-import Academy from "./Pages/Academy";
+import Training from "./Pages/Training";
 import Programs from "./Pages/Programs";
 import Consultancy from "./Pages/Consultancy";
 import Events from "./Pages/Events";
@@ -23,7 +23,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
-        <Route path="/academy" element={<Academy />} />
+        <Route path="/Training" element={<Training />} />
         <Route path="/programs" element={<Programs />} />
         <Route path="/consultancy" element={<Consultancy />} />
         <Route path="/events" element={<Events />} />
